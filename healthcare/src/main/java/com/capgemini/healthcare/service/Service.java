@@ -33,7 +33,7 @@ public class Service implements IService {
 			user.addCenter(d);
 			return true;
 			
-		}
+	}
 
 		
 	public boolean removecenter(DiagnosticCenter d) {
@@ -42,7 +42,7 @@ public class Service implements IService {
 	}
 
 
-	public List<DiagnosticCenter> displaycenter() {
+	public  List<DiagnosticCenter>  displaycenter() {
 		// TODO Auto-generated method stub
 		return null;
 	}

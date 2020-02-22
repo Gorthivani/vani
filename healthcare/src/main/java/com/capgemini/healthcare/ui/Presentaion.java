@@ -30,8 +30,8 @@ public class Presentaion {
 		System.out.println("   Admin ");
 		    System.out.println("1. addCenter");
 		    System.out.println("2. displayCenter");
-		    System.out.println("3. addTest");
-		    System.out.println("4. removeTest");
+		   /* System.out.println("3. addTest");
+		    System.out.println("4. removeTest");*/
 		       System.out.println("Enter your choose :");
 		       choice=sc.nextInt();
 		switch(choice) {
@@ -48,6 +48,7 @@ public class Presentaion {
 		String centerId=dc.getCenterid();
 		System.out.println("id="+centerId);
 		System.out.println("Center added successfully");
+		
 		}
 		catch(Exception e)
 		{
